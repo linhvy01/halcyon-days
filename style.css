@@ -1,0 +1,770 @@
+@font-face {
+	font-family: myFonts;
+	src: url('font/GothamRounded-Book.otf');
+}
+@font-face {
+	font-family: myFontsMedium;
+	src: url('font/GothamRounded-Medium.otf');
+}
+body {
+	font-family: myFontsMedium;
+}
+* {
+    box-sizing: border-box;
+}
+/*---- Menu ----*/
+.top {
+	background-size: cover;
+	background-position: center;
+	background-image: url('images/bg.png');
+	padding: 60px 0 262px 0;
+	margin-bottom: 0;
+}
+.top-contact {
+	padding-top: 160px;
+	font-family: myFonts;
+}
+.top-contact h1 {
+	font-size: 40px;
+	letter-spacing: 18px;
+	color: #353535;
+}
+.top-contact h1 span {
+	color: #a1a9b0;
+}
+.top-contact p {
+	font-size: 20px;
+	color: #a1a9b0;
+	padding: 30px 0 60px 0;
+}
+.aa {
+	font-style: italic;
+	font-weight: bold;
+}
+.top-contact button {
+	width: 200px;
+	height: 64px;
+	background: #3dc9b3;
+	border: 1px solid #3dc9b3;
+	border-radius: 6px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	box-shadow: 0 5px 2px #309383;
+/*	font-family: myFontsMedium;*/
+}
+/*---- End Menu ----*/
+
+/*---- Creative ----*/
+.creative {
+	background: #f3f5f8;
+	padding: 100px 0 120px 0;
+	font-family: myFontsMedium;
+}
+.hat {
+	font-size: 15px;
+	color: #353535;
+	letter-spacing: 4px;
+}
+.bonus {
+	margin: 26px 0;
+	position: relative;
+	cursor: pointer;
+}
+.bonus::before {
+    content: '';
+    position: absolute;
+    width: 12.8%;
+    height: 1px;
+    border: 1px dotted #d2d7dd;
+    top: 40%;
+    left: 33%;
+}
+.bonus::after {
+    content: '';
+    position: absolute;
+    width: 12.8%;
+    height: 1px;
+    border: 1px dotted #d2d7dd;
+    top: 40%;
+    right: 33%;
+}
+.creative-content p {
+	color: #abb0b5;
+	font-size: 14px;
+	width: 728px;
+	line-height: 20px;
+	margin: 0 auto;
+}
+
+.creative-content>p>span {
+	color: #353535;
+}
+/*---- End Creative ----*/
+
+/*---- Work ----*/
+.work {
+	padding: 100px 0;
+}
+.circle {
+	margin: 0 auto;
+}
+.work-title {
+	font-size: 15px;
+	display: inline-block;
+	padding-top: 50px;
+	color: #353535;
+	text-decoration: none;
+}
+.work-title:hover {
+	text-decoration: none;
+	color: #3dc9b3;
+}
+.border-coban {
+	width: 33px;
+	height: 3px;
+	background: #3dc9b3;
+	margin: 28px auto;
+}
+.work-item p {
+	font-size: 14px;
+    color: #8c9398;
+    line-height: 18px;
+    padding: 0 1px;
+}
+
+/*---- End Work ----*/
+
+/*---- Slide ----*/
+.slide {
+	background-image: url('images/test.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slide div.pull-right {
+	padding-right: 0;
+}
+.hardly {
+	background: #fff;
+	padding: 130px 100px 230px 100px;
+}
+.hardly img {
+	margin: auto;
+}
+.hardly p {
+	font-size: 14px;
+	color: #8c9398;
+	padding-bottom: 30px;
+	line-height: 20px;
+}
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.slide .owl-dots {
+	position: absolute;
+	bottom: 18%;
+	right: 42.5%;
+}
+/*---- End Slide ----*/
+
+/*---- Banner ----*/
+.banner {
+	background-image: url('images/bg3.png');
+	padding: 80px 0 50px 0;
+	color: #fff;
+}
+.banner h2 {
+	font-size: 40px;
+	font-family: myFonts;
+	letter-spacing: 15px;
+}
+.banner h3 {
+	font-size: 25px;
+	font-family: myFontsMedium;
+	letter-spacing: 10px;
+	padding: 30px 0 40px 0;
+}
+.banner img {
+	margin: 0 auto;
+}
+/*---- End Banner ----*/
+
+/*---- Second Slide ----*/
+.slide-thu-hai {
+	padding: 100px 0 150px 0;
+}
+.container-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3c9486;
+}
+
+.container-overlay:hover .overlay {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.content {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.content a {
+	font-size: 15px;
+	display: block;
+	padding: 15px 0;
+	text-decoration: none;
+	color: #fff;
+}
+.caption {
+	padding: 40px 0;
+}
+.work-title2 {
+	padding-top: 20px;
+	font-size: 15px;
+	color: #353535;
+	text-decoration: none;
+	letter-spacing: 2px;
+	display: block;
+}
+.work-title2:hover {
+	color: #3dc9b3;
+	text-decoration: none;
+}
+.caption p {
+/*    width: 362px;*/
+	text-indent: -4px;
+    font-size: 14px;
+    color: #8c9398;
+    text-align: justify;
+    line-height: 18px;
+}
+.slide-thu-hai .owl-dots {
+	top: 110%;
+    position: absolute;
+    left: 47%;
+}
+/*---- End Second Slide ----*/
+
+/*---- Passion ----*/
+.passion {
+	padding: 64px 0;
+	background: #242830;
+}
+.button-pass button {
+	width: 296px;
+	height: 76px;
+	background: #242830;
+	font-size: 15px;
+	color: #fff;
+}
+.button-pass button:hover {
+	background: #3dc9b3;
+}
+/*---- End Passion ----*/
+
+/*---- Slide thu 3 ----*/
+.slide-thu-ba {
+	padding: 90px 0;
+}
+.icon-xahoi {
+	margin-top: 40px;
+	margin-left: 0;
+}
+.icon-xahoi li div {
+	width: 40px;
+	height: 41px;
+	border-radius: 50%;
+	background: #242830;
+	padding: 10px;
+	cursor: pointer;
+}
+.icon-xahoi li:hover div {
+	background: #3dc9b3;
+}
+.icon-xahoi li div a {
+	color: #fff;
+	font-size: 20px;
+}
+.owl-carousel .owl-item img {
+	display: inherit;
+}
+.game .owl-dots {
+	position: initial;
+/*	top: 110%;
+    right: 44%;*/
+}
+/*---- End Slide thu 3 ----*/
+
+/*---- Search Side ----*/
+.search-side {
+	background-image: url(images/bg4.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 150px 0;
+    color: #fff;
+    position: relative;
+
+}
+.search-content a {
+	color: #fff;
+}
+.search-content h3 {
+	font-size: 15px;
+	padding: 20px 0 50px 0;
+}
+.search-content input[type="text"] {
+	width: 353px;
+	height: 66px;
+	background: none;
+	padding-left: 53px;
+	border: 1px solid #fff;
+}
+.search-content input[type="submit"] {
+	width: 99px;
+	height: 66px;
+	background: #3dc9b3;
+	border: 1px solid #3dc9b3;
+	font-size: 15px;
+}
+.search-content img {
+    position: absolute;
+	bottom: -6%;
+	left: 48%;
+
+}
+/*---- End Search Side ----*/
+
+/*---- Drop Us ----*/
+.drop-us {
+	padding: 120px 0;
+	background: #f3f5f8;
+}
+
+.abc {
+	padding: 30px 0;
+	background: #fff;
+}
+
+.abc a {
+	display: block;
+	font-size: 14px;
+	color: #3dc9b3;
+}
+.abc a:nth-child(2) {
+	padding: 20px;
+}
+.abc a i {
+	color: #000;
+	font-size: 2.5em;
+}
+.abc p {
+	font-size: 14px;
+	color: #8c9398;
+}
+/*---- End Drop Us ----*/
+
+/*---- Footer ----*/
+.footer {
+	padding: 50px 0;
+	background: #242830;
+	color: #80878e;
+	font-family: myFonts;
+	font-size: 14px;
+}
+.footer span {
+	color: #d4d4d5;
+}
+.footer em {
+	font-style: italic;
+}
+li.pikachu {
+	color: #3dc9b3;
+}
+/*---- End Footer ----*/
+
+/* Responsive */
+
+@media screen and (max-width: 1199px) {
+	.caption p {
+/*    width: inherit;*/
+}
+}
+@media screen and (max-width: 991px) {
+	.border-coban {
+    margin: 20px auto;
+	}
+	.hardly {
+    padding: 130px 50px 200px 50px;
+}
+	.search-content img {
+	left: 47.5%;
+}
+	.drop-us {
+    padding: 100px 0;
+    background: #f3f5f8;
+}
+	.slide-thu-hai .owl-dots {
+		left: 45%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.top {
+		padding: 60px 0 150px 0;
+	}
+	.top-contact {
+		padding-top: 100px;
+	}
+	.creative {
+		padding: 50px 0;
+	}
+	.work {
+		padding: 30px 0;
+	}
+	.work-item {
+		margin-bottom: 30px;
+	}
+	.work-title {
+		padding-top: 20px;
+	}
+	.hardly {
+		padding: 80px;
+	}
+	.slide div.pull-right {
+		padding-left: 0;
+	}
+	.slide .owl-dots {
+		bottom: 7%;
+		left: 41%;
+	}
+	.slide-thu-hai {
+		padding: 60px 0;
+	}
+	.slide-thu-hai .owl-dots {
+		position: initial;
+	}
+	.slide-thu-ba {
+		padding: 30px 0;
+	}
+	.search-content img {
+    left: 47%;
+	}
+	.drop-content div.col-xs-12 {
+		padding: 0;
+	}
+	.caption {
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	.caption p {
+		text-indent: 0;
+	}
+	hardly p {
+		padding-bottom: 20px;
+	}
+	.banner h2 {
+		font-size: 30px;
+		letter-spacing: 10px;
+	}
+	.banner h3 {
+		font-size: 20px;
+	}
+	.drop-us {
+		padding: 50px 0;
+	}
+	.footer {
+		padding: 40px 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	.top {
+		padding: 20px 0;
+	}
+	.top-contact {
+		padding-top: 20px;
+	}
+	.top-contact h1 {
+		font-size: 18px;
+		letter-spacing: 10px;
+	}
+	.top-contact p {
+		font-size: 12px;
+		padding: 30px;
+	}
+	.top-contact button {
+		width: 130px;
+		font-size: 10px;
+		height: 40px;
+	}
+	.creative {
+    padding: 40px 0;
+	}
+	.creative-content p {
+	width: auto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+	}
+	.hat {
+    font-size: 13px;
+    letter-spacing: 2px;
+	}
+	.work-title {
+	font-size: 14px;
+	}
+	.work-item p {
+    font-size: 12px;
+	text-align: justify;
+	}
+	.hardly {
+    padding: 60px;
+	}
+	.hardly p {
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+	.banner {
+	    padding: 40px;
+	}
+	.banner h2 {
+    font-size: 20px;
+    letter-spacing: 4px;
+	}
+	.banner h3 {
+	font-size: 15px;
+	letter-spacing: 5px;
+	padding: 20px 0;
+	}
+	.slide-thu-hai {
+		padding: 20px 50px;
+	}
+	.work-title2 {
+		font-size: 14px;
+		padding-top: 15px;
+	}
+	.caption p {
+		text-indent: 0;
+		font-size: 12px;
+	}
+	.passion {
+		padding: 40px 0;
+	}
+	.button-pass button {
+    width: 200px;
+    height: 60px;
+    font-size: 13px;
+	}
+	.search-side {
+		padding: 40px;
+	}
+	.search-content h3 {
+    font-size: 15px;
+    padding: 20px 0;
+	}
+	.search-content input[type="text"] {
+    width: 230px;
+    height: 40px;
+    padding: 10px;
+	}
+	.search-content input[type="submit"] {
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+	}
+	.search-content img {
+		left: 45%;
+		bottom: -10%;
+	}
+	.drop-us {
+		padding: 40px 0;
+	}
+	li.pikachu {
+    padding-top: 10px;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+	.top-contact h1 {
+    font-size: 16px;
+    letter-spacing: 8px;
+	}
+	.top-contact p {
+    font-size: 10px;
+    padding: 20px;
+	}
+	.top-contact button {
+    width: 120px;
+    font-size: 10px;
+    height: 30px;
+	}
+	.creative {
+    padding: 20px 0;
+	}
+	.hat {
+    font-size: 12px;
+    letter-spacing: 2px;
+	}
+	.bonus {
+    margin: 14px 0;
+	}
+	.creative-content p {
+    font-size: 10px;
+	}
+	.border-coban {
+    margin: 10px auto;
+	}
+	.slide .owl-dots {
+		display: flex;
+	}
+	.hardly {
+    padding: 40px 60px;
+	}
+	.hardly p {
+		padding-bottom: 20px;
+		font-size: 12px;
+	}
+	.search-side {
+    padding: 30px;
+	}
+	.search-content img {
+    left: 43.8%;
+	}
+	.search-side form {
+		margin-bottom: 25px;
+	}
+	.icon-xahoi {
+    margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.navbar-default .navbar-nav>li>a {
+    font-size: 10px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    font-size: 10px;
+	}
+	.top-contact h1 {
+    font-size: 14px;
+    letter-spacing: 6px;
+	}
+	.top-contact button {
+    width: 100px;
+    font-size: 7px;
+    height: 28px;
+	}
+	.hat {
+		font-size: 10px;
+	}
+	.work {
+		padding: 20px 0;
+	}
+	.work-title {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+	.work-item p {
+    font-size: 10px;
+	}
+	.hardly p {
+    padding-bottom: 10px;
+    font-size: 10px;
+	}
+	.banner {
+    padding: 20px;
+	}
+	.banner h2 {
+    font-size: 16px;
+    letter-spacing: 4px;
+	}
+	.banner h3 {
+    font-size: 12px;
+	}
+	.passion {
+    padding: 20px 0;
+	}
+	.button-pass button {
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+	}
+	.caption p {
+    font-size: 10px;
+	}
+	.search-content h3 {
+    font-size: 14px;
+	}
+	.search-content input[type="text"] {
+    width: 200px;
+    font-size: 12px;
+	}
+	.search-content input[type="submit"] {
+    font-size: 12px;
+}
+	.search-content img {
+    left: 42.8%;
+	}
+	.bulma {
+		font-size: 12px;
+	}
+	.slide .owl-dots {
+    bottom: 4%;
+    left: 41%;
+	}
+}
+@media screen and (max-width: 320px) {
+	.hat {
+    font-size: 9px;
+    letter-spacing: 1px;
+	}
+	.banner h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+	}
+	.banner h3 {
+    font-size: 10px;
+	}
+	.work-title2 {
+    font-size: 12px;
+    padding-top: 15px;
+	}
+	.work-title2 {
+    padding-top: 10px;
+	}
+	.search-content h3 {
+    font-size: 13px;
+	}
+	.search-content input[type="text"] {
+    width: 150px;
+    font-size: 12px;
+	}
+	.search-content input[type="submit"] {
+    width: 60px;
+    font-size: 12px;
+	}
+
+}
